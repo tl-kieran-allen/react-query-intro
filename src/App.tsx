@@ -1,9 +1,17 @@
 import clsx from 'clsx'
+import { useState } from 'react'
+import { Form } from './components/Form'
+import { FormData } from './types/FormData'
 
 export function App() {
+  const [formData, setFormData] = useState<FormData>({ maxAbv: 4 })
+
   return (
-    <h1 className={clsx('bg-gray-100', 'm-8', 'rounded', 'p-8', 'shadow')}>
-      Let us begin...
-    </h1>
+    <div className={clsx('card')}>
+      <header>
+        <h1 className={clsx('text-xl', 'underline')}>Beerz</h1>
+      </header>
+      <Form formData={formData} setFormData={setFormData} />
+    </div>
   )
 }

@@ -1,5 +1,5 @@
 {
-  "name": "frontend-template",
+  "name": "react-query-intro",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,18 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kieran-allen/frontend-template.git"
+    "url": "git+https://github.com/tl-kieran-allen/react-query-intro.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kieran-allen/frontend-template/issues"
+    "url": "https://github.com/tl-kieran-allen/react-query-intro/issues"
   },
-  "homepage": "https://github.com/kieran-allen/frontend-template#readme",
+  "homepage": "https://github.com/tl-kieran-allen/react-query-intro#readme",
   "dependencies": {
     "clsx": "^1.1.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.17.1"
   },
   "devDependencies": {
     "@testing-library/react": "^12.1.1",
