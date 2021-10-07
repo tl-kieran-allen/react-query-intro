@@ -9,7 +9,7 @@ export function App() {
   return (
     <div className={clsx('card')}>
       <header>
-        <h1 className={clsx('text-xl', 'underline')}>Beerz</h1>
+        <h1 className={clsx('text-xl', 'underline')}>🍺 Beerz</h1>
       </header>
       <Form formData={formData} setFormData={setFormData} />
     </div>
