@@ -7,7 +7,7 @@ body {
 }
 
 .card {
-  @apply bg-white m-8 rounded p-8 shadow max-w-4xl mx-auto;
+  @apply bg-white m-8 rounded p-8 max-w-4xl mx-auto shadow;
 }
 
 .submit-button {
