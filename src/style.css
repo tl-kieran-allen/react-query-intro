@@ -13,3 +13,11 @@ body {
 .submit-button {
   @apply bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 cursor-pointer self-start;
 }
+
+.abv-pill {
+  @apply self-start bg-red-500 text-white text-xs px-3 rounded-full;
+}
+
+.like-button {
+  @apply bg-purple-600 text-white px-4 text-xs rounded mt-4;
+}
