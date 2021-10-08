@@ -1,4 +1,4 @@
-import { FavoriteResponse } from "../types/FavoriteResponse"
+import { FavoriteResponse } from '../types/FavoriteResponse'
 
 export async function favoriteBeerMutation(beerId: number) {
   const res = await fetch('/favorite', {
