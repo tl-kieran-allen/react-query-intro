@@ -8,8 +8,8 @@ import type { FormData } from './types/FormData'
 
 export function App() {
   const [formData, setFormData] = useState<FormData>({ maxAbv: 4 })
-  const beerQuery = useGetBeerQuery(formData.maxAbv)
   const favoriteQuery = useFavoriteBeerQuery()
+  const beerQuery = useGetBeerQuery(formData.maxAbv, favoriteQuery.isSuccess)
 
   return (
     <div className={clsx('card', 'flex', 'flex-col', 'gap-4')}>

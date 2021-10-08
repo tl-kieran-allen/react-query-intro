@@ -12,7 +12,7 @@ type Props = {
 export function BeerList({ beerQuery, favoriteQuery }: Props) {
   const { mutate } = useFavoriteBeerMutation()
 
-  if (beerQuery.isLoading) {
+  if (beerQuery.isLoading || favoriteQuery.isLoading) {
     return <div>...fetching beers</div>
   }
 
