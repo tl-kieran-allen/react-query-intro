@@ -16,7 +16,7 @@ export const handlers = [
 
     sessionStorage.setItem('favorites', JSON.stringify(favorites))
 
-    return res(ctx.status(200), ctx.json(favorites))
+    return res(ctx.status(200), ctx.delay(1000), ctx.json(favorites))
   }),
   rest.get('/favorite', (_, res, ctx) => {
     return res(ctx.status(200), ctx.json(favorites))
